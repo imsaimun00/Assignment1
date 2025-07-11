@@ -10,17 +10,16 @@
   font-style: normal;
 }
 
+
 header{
   background-image: url(Assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
+  width: 100%;
   overflow: visible;
 }
 
-/* .hdr-content{
-  padding: 0 110px;
-} */
 
 .bnr-content{
   padding: 158px 0px 150px 0px;
@@ -28,8 +27,15 @@ header{
 nav{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
+  margin: 0px 110px;
 }
+
+
+nav li{
+  list-style: none;
+}
+
 h3{
   font-size: 34px;
   font-weight: bold;
@@ -37,9 +43,6 @@ h3{
 }
 span{
   color: orangered;
-}
-nav li{
-  list-style: none;
 }
 .btn1, .btn2, .btn3, .btn4 {
   font-size: 16px;
@@ -49,6 +52,7 @@ nav li{
   background-color: orangered;
   border: none;
   border-radius: 10px;
+  transition: transform 0.1s ease, color 0.2s ease;
 }
 
 .btn5{
@@ -60,6 +64,15 @@ nav li{
   border: none;
   border-radius: 10px;
   width: 498px;
+}
+
+button:hover {
+  background-color: rgb(209, 56, 0);
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: scale(0.96);
 }
 
 .bnr-content{
@@ -80,6 +93,7 @@ nav li{
   display: flex;
   justify-content: space-between;
   padding: 110px 0px;
+  margin: 0px 110px;
 }
 .main1-content1{
    max-width: 517px;
@@ -102,6 +116,7 @@ nav li{
   flex-direction: column;
   align-items: center;
   padding: 50px 80px;
+  margin: 0px 110px;
   background-color: rgba(255, 154, 71, 0.164);
   border-radius: 24px;
 }
@@ -131,6 +146,7 @@ nav li{
 
 .main3{
   padding: 120px 0px 120px 0px;
+  margin: 0px 110px;
 }
 
 .top{
@@ -217,7 +233,7 @@ nav li{
    justify-content: space-between;
    padding: 71px 0;
    margin-top: 87px;
-   margin-bottom: 19px;
+   margin: 0px 110px 19px 110px;
  }
 
  .form h3{
@@ -273,7 +289,7 @@ nav{
   text-align: center;
 }
 
-nav ul{
+.nav2 ul{
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -282,10 +298,22 @@ nav ul{
   margin-top: 20px;
 }
 nav ul li a{
+  display: inline-block;
   text-decoration: none;
   color: rgb(182, 155, 140);
+  transition: transform 0.1s ease, color 0.2s ease;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 220, 200);
+  transform: translateY(-1px);
+}
+
+nav ul li a:active {
+  transform: scale(0.96);
 }
 
 footer{
-  margin-bottom: 100px;
+  padding: 100px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
 }
