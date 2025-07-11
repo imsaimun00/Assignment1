@@ -74,6 +74,7 @@ nav li .btn1{
   border-radius: 10px;
 }
 
+
 .main1{
   display: flex;
   justify-content: space-between;
@@ -104,4 +105,37 @@ nav li .btn1{
 }
 .img1{
   border-radius: 48px;
+}
+
+.main2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 80px;
+  background-color: rgba(255, 154, 71, 0.164);
+  margin: 0 120px;
+  border-radius: 24px;
+}
+
+.main2-content1{
+  font-size: 38px;
+  font-weight: bold;
+  color: rgb(52, 71, 12);
+}
+.big{
+      font-size: 80px;
+      font-weight: bold;
+      color: orangered;
+}
+.small{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main2-content2{
+  display: flex;
+  gap: 158px;
+}
+.main2-content2 p{
+  margin: 0;
 }
