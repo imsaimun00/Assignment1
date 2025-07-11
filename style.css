@@ -248,3 +248,44 @@ input, textarea{
   margin-top: 9px;
    margin-bottom: 19px;
 }
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.biglogo{
+  font-size: 100px;
+  font-weight: 900;
+  color: rgb(52, 71, 12);
+  margin-bottom: 8px;
+}
+
+.bottom-p{
+  font-size: 16px;
+  color: rgb(182, 155, 140);
+  width: 531px;
+  margin: 0 auto;
+}
+
+nav{
+  text-align: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  padding: 0;
+  margin-top: 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(182, 155, 140);
+}
+
+footer{
+  margin-bottom: 100px;
+}
