@@ -18,13 +18,12 @@ header{
   overflow: visible;
 }
 
-.hdr-content{
+/* .hdr-content{
   padding: 0 110px;
-}
+} */
 
 .bnr-content{
-  padding-top: 158px;
-  padding-bottom: 150px;
+  padding: 158px 0px 150px 0px;
 }
 nav{
   display: flex;
@@ -52,6 +51,17 @@ nav li{
   border-radius: 10px;
 }
 
+.btn5{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 35px;
+  background-color: orangered;
+  border: none;
+  border-radius: 10px;
+  width: 498px;
+}
+
 .bnr-content{
   display: flex;
   flex-direction: column;
@@ -69,8 +79,7 @@ nav li{
 .main1{
   display: flex;
   justify-content: space-between;
-  padding: 110px 110px;
-  background-color: rgb(249, 252, 255);
+  padding: 110px 0px;
 }
 .main1-content1{
    max-width: 517px;
@@ -94,7 +103,6 @@ nav li{
   align-items: center;
   padding: 50px 80px;
   background-color: rgba(255, 154, 71, 0.164);
-  margin: 0 120px;
   border-radius: 24px;
 }
 
@@ -122,8 +130,7 @@ nav li{
 }
 
 .main3{
-  padding: 120px 110px;
-  margin-bottom: 0px;
+  padding: 120px 0px 120px 0px;
 }
 
 .top{
@@ -176,7 +183,7 @@ nav li{
  .card{
   padding: 24px;
   border-radius: 14px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
  }
 
  .main4{
@@ -184,7 +191,6 @@ nav li{
   flex-direction: column;
   align-items: center;
   padding: 71px 150px;
-  margin: 0 110px;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 14px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
@@ -203,3 +209,42 @@ nav li{
   border-radius: 48px;
   margin-top: 20px;
  }
+
+ 
+
+ .form{
+   display: flex;
+   justify-content: space-between;
+   padding: 71px 0;
+   margin-top: 87px;
+   margin-bottom: 19px;
+ }
+
+ .form h3{
+  font-size: 97px;
+  max-width: 528px;
+ }
+
+label{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+input{
+  border: 1px solid rgba(214, 221, 237, 0.671);
+  width: 492px;
+  height: 70px;
+  border-radius: 10px;
+}
+textarea{
+  border: 1px solid rgba(214, 221, 237, 0.671);
+  width: 492px;
+  height: 135px;
+  border-radius: 10px;
+  resize: none;
+}
+
+input, textarea{
+  margin-top: 9px;
+   margin-bottom: 19px;
+}
