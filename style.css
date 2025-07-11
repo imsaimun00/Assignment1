@@ -248,14 +248,12 @@ label{
 
 input{
   border: 1px solid rgba(214, 221, 237, 0.671);
-  width: 492px;
-  height: 70px;
+  padding: 20px 305px 20px 20px;
   border-radius: 10px;
 }
 textarea{
   border: 1px solid rgba(214, 221, 237, 0.671);
-  width: 492px;
-  height: 135px;
+  padding: 20px 310px 100px 20px;
   border-radius: 10px;
   resize: none;
 }
