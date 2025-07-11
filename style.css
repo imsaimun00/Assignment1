@@ -18,7 +18,11 @@ header{
   overflow: visible;
 }
 
-.raleway-ronmal{
+.hdr-content{
+  padding: 0 120px;
+}
+
+.bnr-content{
   padding-top: 158px;
   padding-bottom: 150px;
 }
@@ -68,4 +72,36 @@ nav li .btn1{
   background-color: orangered;
   border: none;
   border-radius: 10px;
+}
+
+.main1{
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 120px;
+  background-color: rgb(249, 252, 255);
+}
+.main1-content1{
+   max-width: 517px;
+}
+.main1-content1 h3{
+
+ font-size: 42px; 
+ font-weight: bold;
+}
+.main1-content1 p{
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+.btn3{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 35px;
+  background-color: orangered;
+  border: none;
+  border-radius: 10px;
+}
+.img1{
+  border-radius: 48px;
 }
