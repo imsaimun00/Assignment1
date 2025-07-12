@@ -1,3 +1,4 @@
+/* Font family classes */
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -10,7 +11,7 @@
   font-style: normal;
 }
 
-
+/* Header Section Styling */
 header{
   background-image: url(Assets/Hero-bg.png);
   background-repeat: no-repeat;
@@ -20,10 +21,12 @@ header{
   overflow: visible;
 }
 
-
+/* Banner Section */
 .bnr-content{
   padding: 158px 0px 150px 0px;
 }
+
+/* Navigation bar */
 nav{
   display: flex;
   justify-content: space-between;
@@ -31,7 +34,7 @@ nav{
   margin: 0px 110px;
 }
 
-
+/* Headings */
 nav li{
   list-style: none;
 }
@@ -44,6 +47,8 @@ h3{
 span{
   color: orangered;
 }
+
+/* Button Styles */
 .btn1, .btn2, .btn3, .btn4 {
   font-size: 16px;
   font-weight: bold;
@@ -88,7 +93,7 @@ button:active {
   max-width: 905px;
 }
 
-
+/* Section: Live Preview */
 .main1{
   display: flex;
   justify-content: space-between;
@@ -111,6 +116,7 @@ button:active {
   border-radius: 48px;
 }
 
+/* Section: Stats Section */
 .main2{
   display: flex;
   flex-direction: column;
@@ -156,6 +162,7 @@ button:active {
   color: rgb(52, 71, 12);
 }
 
+/* Section: Testimonials */
 .cardzz{
     display: flex;
     justify-content: center;
@@ -227,7 +234,7 @@ button:active {
  }
 
  
-
+  /* Section: Form */
  .form{
    display: flex;
    justify-content: space-between;
